@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Contact Jay Patel</title>
- <link rel="stylesheet" href="./css/style.css">
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<head class="contact-head">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Jay Patel</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Lato:wght@100;300;400;700;900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 </head>
 
-<body>
- <nav>
-  <p><a href="index.html">About Jay</a></p>
- </nav>
+<body class="">
+  <nav>
+    <p><a href="index.html">About</a></p>
+  </nav>
+  <div class="contact-info">
+    <h1>Contact</h1>
+    <p>1020 Haley Street<br>Macon, GA 31217</p>
+    <p>(478)731-0750</p>
+    <hr>
+  </div>
 
- <h1>Contact Jay</h1>
- <p>1020 Haley Street<br>Macon, GA 31217</p>
- <p>(478)731-0750</p>
- <hr>
- <form action="mailto:jaydpat0822@gmail.com" method="post">
-  <label for="name">Name:</label>
-  <input type="text">
-  <br>
-  <label for="email">Email:</label>
-  <input type="email"><br>
-  <label for="message">Message:</label>
-  <textarea name="Message" id="" cols="10" rows="2"></textarea><br>
-  <input type="submit">
- </form>
+  <div class="card one-col">
+    <form action="mailto:jaydpat0822@gmail.com" method="post" class="container">
+      <label for="name" class="item-1">Name:</label>
+      <input type="text" class="item-2">
+      <br>
+      <label for="email" class="item-3">Email:</label>
+      <input type="email" class="item-4"><br>
+      <label for="message" class="item-5">Message:</label>
+      <textarea name="Message" id="" cols="10" rows="2" class="item-6"></textarea><br>
+      <input type="submit" class="item-7">
+    </form>
+  </div>
 
- <footer>
-  <br>
-  &#169; <a href="index.html">Jay Patel</a>
- </footer>
+
+  <footer class="contact-footer">
+    <br>
+    <a href="index.html">&#169; Jay Patel</a>
+  </footer>
 
 
 </body>
