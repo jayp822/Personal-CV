@@ -626,15 +626,13 @@ dd {
 }
 
 .contact-footer {
-	background-color: #000700;
-	display: flex;
+	background-color: #1a1a1b;;
 	justify-content: center;
 	flex-wrap: nowrap;
 	align-items: center;
 	height: 6rem;
-	position: fixed;
+	position: relative;
 	width: 100%;
-	top: 94vh;
 }
 
 .contact-info {
