@@ -1,8 +1,9 @@
-/**
- * GLOBAL
- *
- * @format
- */
+/** 
+	Copyright Jay Patel
+	
+	Web Programming 2024 Spring
+
+*/
 
 * {
 	cursor: url(../images/cursor.png), auto;
@@ -40,6 +41,7 @@ nav {
 	border: #fff solid 2px;
 	margin-left: 16px;
 	margin-right: auto;
+	display: block;
 }
 
 nav a {
@@ -284,7 +286,7 @@ hr {
 	gap: 1px;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-template-columns: 1fr;
-	justify-items: center;
+	justify-items: start;
 }
 
 dt {
@@ -360,6 +362,11 @@ label {
 	font-weight: 600;
 	font-size: 25px;
 	margin-top: 100px;
+}
+
+.one-col {
+	display: grid;
+	grid-template-columns: 1fr;
 }
 
 .container label {
